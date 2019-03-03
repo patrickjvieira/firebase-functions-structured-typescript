@@ -25,9 +25,9 @@ File tree:
 |  |  |__ user
 |  |      |__ on-create.ts
 |  |__ httpx
-|      |__ firebase-1.ts
-|      |__ firebase-2.ts
-|__ index.ts
+|  |   |__ firebase-1.ts
+|  |   |__ firebase-2.ts
+|  |__ index.ts
 |__ README.md
 |__ package.json
 |__ tsconfig.json
