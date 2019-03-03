@@ -17,16 +17,27 @@ Dependencies:
   - npm run shell: To test functions locally simulation firebase enviorment triggers
   - npm run deploy: To deploy your functions to firebase cloud
 
-Example:
-  - File tree:
-    |src
-    |_auth/user
-    |__on-create.ts
-    |_httpx
-    |__firebase-1.ts
-    |__firebase-2.ts
-    
-  Result in firebase functions deployed as:
-  |- authUserOnCreate.ts
-  |- httpxFirebase1.ts
-  |- httpxFirebase2.ts
+## Example
+```
+File tree:
+src
+|__ auth
+|   |__ user
+|       |__ on-create.ts
+|__ httpx
+|   |__ firebase-1.ts
+|   |__ firebase-2.ts
+|__ index.ts
+|__ README.md
+|__ package.json
+|__ tsconfig.json
+
+```
+Result in firebase functions deployed as:
+
+```
+|- authUserOnCreate.ts
+|- httpxFirebase1.ts
+|- httpxFirebase2.ts
+
+```
