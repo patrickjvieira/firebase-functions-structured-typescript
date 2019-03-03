@@ -1,5 +1,10 @@
 # firebase-functions-structure
 
+## What is:
+ A script which searches for '.ts' files recursively inside src directory 
+ converting the path of each file to a camel case name to be deployed on 
+ firebase cloud function with a structured name.
+ 
 ## How-to:
  - Every function in each file must be exported by using 'module.exports = functions'
  - Admin SDK must be started on index file or using try catch in each file: 'try {admin.initializeApp(functions.config().firebase);} catch(e) {} '
