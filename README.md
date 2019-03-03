@@ -7,7 +7,12 @@
  
 ## How-to
  - Every function in each file must be exported by using 'module.exports = functions'
- - Admin SDK must be started on index file or using try catch in each file: 'try {admin.initializeApp(functions.config().firebase);} catch(e) {} '
+ - Admin SDK must be started on index file or using try catch in each file:
+   ``` 
+   try {
+       admin.initializeApp(functions.config().firebase);
+   } catch(e) {}
+   ```
  - Configure package.json, typescript compiler needs some sets to work properly:
     * "build": "rm -rf lib/; tsc;",
     * "serve": "rm -rf lib/; tsc; sudo firebase serve",
