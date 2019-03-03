@@ -8,8 +8,6 @@
  *  https://github.com/firebase/functions-samples/issues/170
  * 
  * @author: Patrick Vieira
- * @todo: Every function in each file must be exported by using 'exports = module.exports = function...'
- * @todo: Admin SDK must be started only one time: 'try {admin.initializeApp(functions.config().firebase);} catch(e) {} '
  */
 
 import * as glob from 'glob';
